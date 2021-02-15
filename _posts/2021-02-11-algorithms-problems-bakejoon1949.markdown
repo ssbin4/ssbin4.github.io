@@ -1,7 +1,7 @@
 ---  
 layout: post  
-title: "백준 1949 풀이"  
-subtitle: "백준 1949 풀이"  
+title: "백준 1949(우수마을) 풀이"  
+subtitle: "백준 1949(우수마을) 풀이"  
 categories: algorithms
 tags: problems
 comments: true  

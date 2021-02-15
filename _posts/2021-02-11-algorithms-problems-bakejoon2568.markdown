@@ -1,7 +1,7 @@
 ---  
 layout: post  
-title: "백준 2568 풀이"  
-subtitle: "백준 2568 풀이"  
+title: "백준 2568(전깃줄-2) 풀이"  
+subtitle: "백준 2568(전깃줄-2) 풀이"  
 categories: algorithms
 tags: problems
 comments: true  

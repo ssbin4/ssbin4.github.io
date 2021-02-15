@@ -1,7 +1,7 @@
 ---  
 layout: post  
-title: "백준 1167 풀이"  
-subtitle: "백준 1167 풀이"  
+title: "백준 1167(트리의 지름) 풀이"  
+subtitle: "백준 1167(트리의 지름) 풀이"  
 categories: algorithms
 tags: problems
 comments: true  

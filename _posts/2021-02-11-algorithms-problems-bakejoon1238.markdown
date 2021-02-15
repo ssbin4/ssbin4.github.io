@@ -1,7 +1,7 @@
 ---  
 layout: post  
-title: "백준 1238 풀이"  
-subtitle: "백준 1238 풀이"  
+title: "백준 1238(파티) 풀이"  
+subtitle: "백준 1238(파티) 풀이"  
 categories: algorithms
 tags: problems
 comments: true  
