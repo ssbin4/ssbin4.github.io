@@ -9,5 +9,5 @@ order: 10
 
 
 * 2019.02~ Postech CSE undergraduate student
-* Interested in computer vision and machine learning
+* Interested in computer vision and deep learning
 
