@@ -58,7 +58,7 @@ ssbin4:
     # stumbleupon:     <username>
     # paypal:          <username>
     email:           mailto:ssbin4@postech.ac.kr
-    # rss:             
+    rss:             https://ssbin4.github.io/feed.xml
 
 # Another author
 mdo:
