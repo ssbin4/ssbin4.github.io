@@ -114,6 +114,7 @@ exclude:
 
 kramdown:
   footnote_backlink: '&#x21a9;&#xfe0e;'
+  input: GFM
   math_engine:       mathjax
   math_engine_opts:
     preview:         true
@@ -137,4 +138,4 @@ tipue_search:
     files: [search.html, index.html, tags.html]
     categories: []
     tags: []
-    
+

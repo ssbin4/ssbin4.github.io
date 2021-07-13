@@ -3,7 +3,7 @@ layout: post
 title: "백준 20057(마법사 상어와 토네이도) 풀이"  
 subtitle: "백준 20057(마법사 상어와 토네이도) 풀이"  
 categories: algorithms
-tags: problems
+tags: ps
 comments: true  
 ---  
   

@@ -3,7 +3,7 @@ layout: post
 title: "백준 1202(보석 도둑) 풀이"  
 subtitle: "백준 1202(보석 도둑) 풀이"  
 categories: algorithms
-tags: problems
+tags: ps
 comments: true  
 ---  
   

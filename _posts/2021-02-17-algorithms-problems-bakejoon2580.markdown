@@ -3,7 +3,7 @@ layout: post
 title: "백준 2580(스도쿠) 풀이"  
 subtitle: "백준 2580(스도쿠) 풀이"  
 categories: algorithms
-tags: problems
+tags: ps
 comments: true  
 ---  
   

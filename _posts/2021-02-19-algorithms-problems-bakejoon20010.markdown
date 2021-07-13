@@ -3,7 +3,7 @@ layout: post
 title: "백준 20010(악덕 영주 혜유) 풀이"  
 subtitle: "백준 20010(악덕 영주 혜유) 풀이"  
 categories: algorithms
-tags: problems
+tags: ps
 comments: true  
 ---  
   

@@ -3,7 +3,7 @@ layout: post
 title: "백준 1520(내리막길) 풀이"  
 subtitle: "백준 1520(내리막길) 풀이"  
 categories: algorithms
-tags: problems
+tags: ps
 comments: true  
 ---  
   

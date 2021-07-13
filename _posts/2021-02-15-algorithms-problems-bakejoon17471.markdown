@@ -3,7 +3,7 @@ layout: post
 title: "백준 17471(게리맨더링) 풀이"  
 subtitle: "백준 17471(게리맨더링) 풀이"  
 categories: algorithms
-tags: problems
+tags: ps
 comments: true  
 ---  
   

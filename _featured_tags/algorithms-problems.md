@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Problems
-slug: problems
+title: PS
+slug: ps
 category: algorithms
 menu: false
 order: 1
