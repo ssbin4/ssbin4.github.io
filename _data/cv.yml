@@ -1,97 +1,81 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Sungbin 
+#     - name: Date of Birth
+#       value: 14th March 1879
+#     - name: Languages
+#       value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D.
+      institution: Computer Science and Engineering, POSTECH
+      year: 2023. 02 -
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - advised by Prof. <a href="http://namhoonlee.github.io">Namhoon Lee</a>
+        - a member of <a href="http://ml.postech.ac.kr">Machine Learning Laboratory</a>
+    - title: B.S.
+      institution: Computer Science and Engineering, POSTECH
+      year: 2019. 02 - 2023. 02
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 4.04/4.3 (Summa Cum Laude)"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Student Researcher
+      institution:  Google Korea (Remote)
+      year: 2023. 05 - 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - working with model optimization team
+    - title: Undergraduate Research Intern
+      institution:  Machine Learning Laboratory, POSTECH
+      year: 2022. 02 - 2023. 02
       description:
-        - Description 1.
-        - Description 2.
+        - advised by Prof. <a href="http://namhoonlee.github.io">Namhoon Lee</a>
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Teaching Assistant, POSCO AI Experts Training Program
+      year: 2022
+      description:
+        - "Topic: Machine learning and deep learning"
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023 - 2024
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Kwanjeong Education Foundation Scholarship
+    - year: 2020 - 2022
       items: 
-        - Max Planck Medal
+        - POSTECH CSE Global Leadership Program
+    - year: 2019 - 2023
+      items: 
+        - National Scholarship of Excellence (Science & Eng.)
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Model compression
+#       items:
+#         - LLM compression
+#         - Optimization-based model compression
+#     - title: Optimization Theory
+#       items:
+#         - Generalization 
+#     - title: General ML/DL
+#       items:
+#         - Interpretable machine learning models
+#         - Causal learning

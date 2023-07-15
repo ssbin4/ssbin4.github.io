@@ -2,16 +2,15 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+        <!-- <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img data-zoomable class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
           {%- else -%}
             {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
             {% include figure.html
             path=entry_path
             class="preview z-depth-1 rounded"
-            zoomable=true
             alt=entry.preview -%}
           {%- endif -%}
         {%- elsif entry.abbr -%}
@@ -25,12 +24,12 @@
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
-        </div>
+        </div> -->
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
         <!-- Title -->
-        <div class="title">{{entry.title}}</div>
+        <div class="title" style="width:100%">{{entry.title}}</div>
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
@@ -60,7 +59,7 @@
 
           {%- if forloop.length > 1 -%}
             {%- if forloop.first == false -%},&nbsp;{%- endif -%}
-            {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
+            {%- if forloop.last and author_array_limit == author_array_size -%}{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
             <em>{{author.first}} {{author.last}}</em>
@@ -125,8 +124,14 @@
         {%- if entry.year -%}
           {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
         {%- endif -%}
+        {%- if entry.previous_version -%}
+          {%- capture entrypreviousversion -%}{{ " " }}{{entry.previous_version}}{%- endcapture -%}
+        {%- endif -%}
+        {%- if entry.previous_year -%}
+          {%- capture entrypreviousyear -%}{{ " " }}{{entry.previous_year}}{%- endcapture -%}
+        {%- endif -%}
         {% assign entrytype_text = entrytype | strip_html | strip %}
-        {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+        {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- if entrypreviousversion and entrypreviousyear -%} &nbsp; (previous version at {{entrypreviousversion}}, {{entrypreviousyear}}){%- endif -%}{%- endcapture -%}
         <div class="periodical">
           {{ periodical | strip }}
         </div>
