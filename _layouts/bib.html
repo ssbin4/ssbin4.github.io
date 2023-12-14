@@ -131,13 +131,18 @@
           {%- capture entrypreviousyear -%}{{ " " }}{{entry.previous_year}}{%- endcapture -%}
         {%- endif -%}
         {% assign entrytype_text = entrytype | strip_html | strip %}
-        {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- if entrypreviousversion and entrypreviousyear -%} &nbsp; (previous version at {{entrypreviousversion}}, {{entrypreviousyear}}){%- endif -%}{%- endcapture -%}
+        {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- if entry.previous_version and entry.previous_year !="" -%}; <em>{{entrypreviousversion}}</em>, {{entrypreviousyear}}{%- endif -%}{%- endcapture -%}
         <div class="periodical">
           {{ periodical | strip }}
         </div>
         <div class="periodical">
           {{ entry.note | strip }}
         </div>
+        {%- if entry.additional %}
+          <div class="additional">
+            {{entry.additional}}
+          </div>
+        {%- endif %}
 
           <!-- Links/Buttons -->
           <div class="links">
