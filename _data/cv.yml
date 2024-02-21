@@ -39,10 +39,14 @@
 - title: Teaching
   type: time_table
   contents:
-    - title: Teaching Assistant, POSCO AI Experts Training Program
-      year: 2022
+    - title: Teaching Assistant, POSTECH
+      year: 2024-S 
       description:
-        - "Topic: Machine learning and deep learning"
+        - "CSED/AIGS 538 Deep Learning"
+    - title: Teaching Assistant, POSCO AI Experts Training Program
+      year: 2022-F
+      description:
+        - "Machine Learning and Deep Learning"
 
 # - title: Open Source Projects
 #   type: time_table
