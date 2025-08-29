@@ -20,4 +20,4 @@ Hi, I am a second-year Ph.D student in computer science and engineering at <a hr
 My vision is to make machine learning models more accessible to everyone.
 As of now, I am interested in building efficient models through compression and understanding generalization of large-scale neural networks.
 
-Contact me via <a href="mailto:ssbin4@postech.ac.kr"> ssbin4@postech.ac.kr </a> if you have any questions.
+Contact me via <a href="mailto:sungbin.shin@postech.ac.kr"> sungbin.shin@postech.ac.kr </a> if you have any questions.
